@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />   
+    <link href="reset.css" rel="stylesheet" />
+    <link href="style2.css" rel="stylesheet" />
+
+    <script defer src="burger.js"></script>
+    <title>Nous contacter</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar" id="navbar">
+        <div class="hamburger-menu" id="hamburger-menu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Accueil</a>
+              </li>
+            <li class="nav-item">
+                <a href="art1.html" class="nav-link">Articles</a>
+              </li>
+            <a href="index.html#NotreP" class="nav-link">Nos produits</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#LP" class="nav-link">Le Prototype</a>
+          </li>
+          <li class="nav-item">
+            <a href="index.html#Actu" class="nav-link">Actualités</a>
+          </li>
+          <li class="nav-item">
+              <a href="index.html#story" class="nav-link">Notre histoire</a>
+          </li>
+          <li class="nav-item">
+              <a href="Preco.html" class="nav-link">Pré-commande</a>
+            </li>
+        </ul>
+      </nav>
+      <h1 class="actualites">Contact</h1>
+    </header>
+    <div class="formulaire">
+      <form>
+        <h2 class="legende"><span class="number">1</span>Informations</h2>
+        <div class="form-1">
+          <label for="NomPrenom">Nom & Prénom</label>
+          <input
+            id="NomPrenom"
+            name="NomPrenom"
+            type="text"
+            placeholder="Rougier Théo"
+          />
+        </div>
+        <div class="form-1">
+          <label for="email">Adresse Email</label>
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="theo.rougier@hetic.net"
+          />
+        </div>
+        <h2 class="legende"><span class="number">2</span>Message</h2>
+        <div class="form-1">
+          <label for="Message">Votre Message</label>
+          <textarea placeholder="Rédigez ici" rows="10" cols="36"></textarea>
+        </div>
+        <div class="valider">
+          <input class="submit" type="submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

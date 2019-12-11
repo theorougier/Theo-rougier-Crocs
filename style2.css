@@ -1,0 +1,352 @@
+
+  .Rs {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .fb {
+    width: 35px;
+    height: 35px;
+  }
+
+  .insta {
+    width: 35px;
+    height: 35px;
+  }
+
+  .tt {
+    width: 35px;
+    height: 35px;
+  }
+
+  .yt {
+    width: 50px;
+    height: 35px;
+  }
+}
+
+
+.header {
+  width: 100%;
+  background: black;
+}
+
+.actualites {
+  position: relative;
+  padding-top: 40px;
+  color: black;
+  font-family: Calibri;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.rectangle-green {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 47px;
+  left: 95px;
+  background: #7BBD28;
+  opacity: 80%;
+  left: 100px
+
+}
+
+.rectangle-blue {
+   width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 47px;
+  left: 95px;
+  background: blue;
+  opacity: 80%;
+}
+
+ 
+.tech {
+  margin-top: 35px;
+  margin-left: 15px;
+  font-family: Calibri;
+  font-size: 24px;
+  color: #202020;
+  font-weight: bold;
+}
+
+.techshoe {
+  width: 200px;
+  height: 120px;
+  padding-top: 25px;
+  padding-left: 15px;
+ 
+}
+
+.redbull-event {
+  width: 290px;
+  height: 150px;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+article p {
+  color: #3E3E3E;
+  font-family: "Calibri";
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.rectangle2 {
+  width: 110px;
+  height: 40px;
+  position: absolute;
+  top: 125px;
+  left: 185px;
+  background: #7BBD28;
+  opacity: 70%;
+
+}
+
+  .link-art-redbull {
+    text-decoration: none;
+    color: black;
+    color: #3E3E3E;
+    font-family: Calibri;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.link-art-tech {
+text-decoration: none;
+  color: black;
+  color: #3E3E3E;
+  font-family: Calibri;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.sportifs-favoris {
+  font-weight: normal;
+  font-style: italic;
+  color: darkslategray
+}
+
+
+footer {
+  background: gainsboro;
+  margin-top: 25px;
+  bottom: 0;
+}
+.content {
+  background: gainsboro;
+  margin-top: 25px;
+  bottom: 0;
+}
+
+footer p {
+  position: relative;
+  top: 20px;
+  font-family: "Calibri";
+  margin-left: 15px;
+  color: #3E3E3E;
+}
+
+.navbar {
+  width: 200px;
+  height: 100%;
+  background-color: #262626;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20% 0 0 20%;
+  transition: right 0.6s;
+  opacity: 80%;
+  z-index: 1;
+}
+.change {
+  right: 0;
+}
+.hamburger-menu {
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  
+}
+.line {
+  width: 100%;
+  height: 3px;
+  background-color: #82c000;
+  transition: all 0.8s;
+  }
+
+.change .line-1 {
+  transform: rotate(-405deg) translate(-8px, 6px);
+}
+.change .line-2 {
+  opacity: 0;
+}
+.change .line-3 {
+  transform: rotate(405deg) translate(-8px, -6px);
+}
+
+.nav-list {
+  text-align: right;
+}
+.nav-item {
+  list-style: none;
+  margin: 25px;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  font-family: 'Calibri';
+  padding: 3px 0;
+  font-weight: bold;
+}
+
+.nav-link::before,
+.nav-link::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #82C000;
+  position: absolute;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.nav-link::after {
+  bottom: 0;
+  transform-origin: right;
+}
+.nav-link::before {
+  top: 0;
+  transform-origin: left;
+}
+.nav-link:hover::before,
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.div-formulaire {
+  margin-top: 25px;
+}
+
+.form-1 {
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+  font-family: 'Calibri'
+}
+
+.number {
+	background: #04a06c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 15px 15px 15px 0px;
+
+
+  }
+
+  .legende {
+    font-family: 'Calibri';
+    font-weight: bold;
+  }
+
+  .formulaire {
+    margin-top: 35px;
+  }
+
+  .valider {
+    display:flex;
+    justify-content: center ;
+  }
+  .submit {
+    background-color: white;
+    border-color: #04a06c;
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+@media (min-width: 768px) {
+  footer {
+    opacity: 0;
+  }
+  .Rs {
+    opacity: 0;
+  }
+  .techshoe {
+    margin-left: 450px;
+    width: 30%;
+    height:100%
+  }
+  section article p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.redbull-event {
+  margin-left: 200px;
+  width: 60%;
+  height:100%;
+  margin-top: 25px;
+}
+
+.tech {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.actualites {
+  position: relative;
+  padding-top: 40px;
+  color: black;
+  font-family: Calibri;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+}
+
+@media(min-width: 768px) {   .legende {     margin-left: 500px;   } }
